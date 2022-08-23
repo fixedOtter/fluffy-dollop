@@ -1,0 +1,8 @@
+header {
+  margin-bottom: 3rem;
+}
+
+nav.dark {
+  background-color: midnightblue;
+  color:darkorchid;
+}
