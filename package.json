@@ -1,0 +1,25 @@
+{
+  "name": "fluffy-dollop",
+  "version": "1.0.0",
+  "description": "amazing react website",
+  "main": "index.js",
+  "scripts": {
+    "build:client": "cd ./client && npm install && npm run build",
+    "build:server": "cd ./server && npm install",
+    "build": "npm run build:client && npm run build:server",
+    "start": "npm install && node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fixedOtter/fluffy-dollop.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "fixedOtter",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fixedOtter/fluffy-dollop/issues"
+  },
+  "homepage": "https://github.com/fixedOtter/fluffy-dollop#readme"
+}
